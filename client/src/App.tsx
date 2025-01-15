@@ -3,7 +3,7 @@ import VideoPlayer from "./components/VideoPlayer";
 
 const App: React.FC = () => {
     return (
-        <div>
+        <div style={{width: "100vw", height: "100vw"}}>
             <VideoPlayer src="v.mp4" />
         </div>
     );
