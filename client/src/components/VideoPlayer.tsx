@@ -41,9 +41,11 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src }) => {
     }
 
     return (
-        <div className={styles['videoBlock']}>
+        <div tabIndex={0} className={styles['videoBlock']}>
+
             <div
                 className={styles['VideoPlayerBlock']}
+
                 onClick={() => PlayVideo()}
             >
                 <video
